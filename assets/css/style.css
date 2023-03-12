@@ -59,9 +59,6 @@
 		 width: 95%;
 	}
 }
- .txt-rotate > .wrap {
-	 border-right: 0.08em solid #666;
-}
  .navbar {
 	 position: fixed;
 	 z-index: 100;
@@ -76,7 +73,7 @@
 	 color: #000000;
 	 text-align: bottom;
 	 padding: 26px 35px 3px 5px;
-	 font-size: 1.1em;
+	 font-size: 1.5em;
 	 text-decoration: none;
 }
  .navelements a:hover {
