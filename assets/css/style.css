@@ -168,11 +168,12 @@
 	 position: fixed;
 	 left: 0;
 	 bottom: 0;
-	 padding: 20px 20px 20px 0px;
+	 padding: 15px 20px 15px 0px;
 	 width: 100%;
 	 margin: 0 auto;
 	 background-color: #EBEBEB;
 	 color: #000000;
 	 text-align: center;
 	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 1.3em;
 }
