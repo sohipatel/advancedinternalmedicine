@@ -164,6 +164,19 @@
  .main {
 	 margin-top: 100px;
 }
+
+.float-container {
+    border: none;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
  .footer {
 	 position: fixed;
 	 left: 0;
