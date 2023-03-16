@@ -189,8 +189,8 @@
 	margin-left: 0;
 }
 
-.li:not(:last-child) {
-	margin-bottom: 5px;
+.services li:not(:last-child) {
+	margin-bottom: 10px;
 }
 
 .footer {
