@@ -173,7 +173,7 @@
 	font-size: 20px;
 }
 
-.TMnext h2, .two-columns h2 {
+.TMnext ul li h2, .two-columns ul li h2 {
 	list-style-type: none;
 	margin-left: 0;
 }
@@ -188,10 +188,6 @@
 .two-columns ul {
 	margin: 0;
 	list-style: none;
-}
-
-.two-columns ul li {
-	list-style: disc;
 }
 
 .footer {
