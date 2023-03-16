@@ -165,12 +165,8 @@
 	 margin-top: 100px;
 }
 
-.TMin {
-	text-align: center;
-}
-
 .TMnext {
-	width: 50%;
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
