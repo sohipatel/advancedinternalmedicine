@@ -174,7 +174,7 @@
 }
 
 .TMnext h2 {
-	list-style: none;
+	list-style-type: none;
 }
 
 .two-columns {
@@ -190,7 +190,7 @@
 }
 
 .two-columns h2 {
-	list-style: none;
+	list-style-type: none;
 }
 
 .footer {
