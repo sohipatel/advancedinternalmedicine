@@ -172,6 +172,10 @@
 	flex-wrap: wrap;
 }
 
+.TMnext h2 {
+	list-style: none;
+}
+
 .two-columns {
 	display: flex;
 	flex-wrap: wrap;
