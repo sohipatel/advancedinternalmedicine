@@ -186,6 +186,10 @@
 
 .two-columns ul {
 	margin: 0;
+	list-style: none;
+}
+
+.two-columns ul li {
 	list-style: disc;
 }
 
