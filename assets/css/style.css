@@ -170,6 +170,7 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	font-size: 30px;
 }
 
 .TMnext h2 {
@@ -186,6 +187,10 @@
 .two-columns ul {
 	list-style: disc;
 	margin: 0;
+}
+
+.two-columns h2 {
+	list-style: none;
 }
 
 .footer {
