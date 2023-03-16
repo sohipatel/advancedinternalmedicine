@@ -171,6 +171,23 @@
 	vertical-align: top;
 }
 
+.two-columns {
+    display: flex;
+    justify-content: center;
+}
+
+.two-columns ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.two-columns ul li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
  .footer {
 	 position: fixed;
 	 left: 0;
