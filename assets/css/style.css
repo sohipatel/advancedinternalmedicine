@@ -165,9 +165,14 @@
 	 margin-top: 100px;
 }
 
+.TMin {
+	text-align: center;
+}
+
 .TMnext {
-    width: 30%;
-    display: inline-block;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
 }
 
  .footer {
