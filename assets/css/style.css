@@ -198,6 +198,20 @@
 	margin-bottom: 10px;
 }
 
+.MDJcontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.MDJimage {
+	flex-basis: 40%;
+}
+
+.MDJtext {
+	padding-left: 10px;
+}
+
 .footer {
 	position: fixed;
 	left: 0;
