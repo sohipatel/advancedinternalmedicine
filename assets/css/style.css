@@ -174,8 +174,6 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
-	font-size: 20px;
 }
 
 .TMnext ul li h2, .two-columns ul li h2 {
@@ -185,7 +183,6 @@
 
 .two-columns {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
 }
