@@ -206,10 +206,13 @@
 
 .MDJimage {
 	flex-basis: 40%;
+	padding-left: 40px;
+	padding-right: 20px;
 }
 
 .MDJtext {
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 40px;
 }
 
 .footer {
