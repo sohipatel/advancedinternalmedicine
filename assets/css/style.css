@@ -225,7 +225,7 @@
 	flex-basis: 40%;
 	margin-left: 100px;
 	margin-right: 30px;
-	border: 2px solid #ebebeb;
+	border: 1px solid black;
 }
 
 .MDJtext {
@@ -234,19 +234,19 @@
 }
 
 .res a:link {
-  color: #551A8B;
+	color: #551A8B;
 }
 
 .res a:visited {
-  color: #551A8B;
+	color: #551A8B;
 }
 
 .res a:hover {
-  color: #D3A808;
+	color: #D3A808;
 }
 
 .res a:active {
-  color: #6A4F3E;
+	color: #6A4F3E;
 }
 
 .footer {
