@@ -208,6 +208,12 @@
 	flex-basis: 40%;
 	padding-left: 100px;
 	padding-right: 30px;
+	border: 1px solid #ebebeb;
+	box-shadow: 0 0 1px #ebebeb;
+	-webkit-box-shadow: 0 0 1px #ebebeb;
+	-moz-box-shadow: 0 0 1px #ebebeb;
+	-o-box-shadow: 0 0 1px #ebebeb;
+	-ms-box-shadow: 0 0 1px #ebebeb;
 }
 
 .MDJtext {
