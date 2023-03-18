@@ -233,19 +233,19 @@
 	padding-right: 100px;
 }
 
-a:link {
+.res a:link {
   color: blue;
 }
 
-a:visited {
+.res a:visited {
   color: #551A8B;
 }
 
-a:hover {
+.res a:hover {
   color: #D3A808;
 }
 
-a:active {
+.res a:active {
   color: #6A4F3E;
 }
 
