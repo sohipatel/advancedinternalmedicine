@@ -176,11 +176,6 @@
 	justify-content: center;
 }
 
-.TMnext ul li h2, .two-columns ul li h2 {
-	list-style-type: none;
-	margin-left: 0;
-}
-
 .two-columns {
 	display: flex;
 	justify-content: center;
