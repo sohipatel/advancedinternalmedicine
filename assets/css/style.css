@@ -229,6 +229,12 @@
 	margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 768 px) {
+	 .services {
+		font-size: 28px;
+	}
+}
+
 .MDJcontainer {
 	display: flex;
 	align-items: center;
@@ -264,16 +270,7 @@
 }
 
 .contactinfo {
-	align: center;
-	padding: 0px 800px;
-}
-
-@media only screen and (max-width: 768 px) {
-	 .contactinfo {
-		align: center;
-		padding: 0px 300px;
-		font-size: 28px;
-	}
+	justify-content: center;
 }
 
 .footer {
