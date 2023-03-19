@@ -201,7 +201,7 @@
 @media only screen and (max-width: 768 px) {
 	 .contactbox {
 		display: inline-block;
-		width: 98%;
+		width: 100%;
 		padding: 10px;
 		background-color: #F7F7F7;
 		border: 1px solid black;
