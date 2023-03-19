@@ -310,6 +310,7 @@
 
 @media only screen and (max-width: 768 px) {
 	 .contactinfo {
+		margin-left: -1000px;
 		font-size: 32px;
 	}
 }
