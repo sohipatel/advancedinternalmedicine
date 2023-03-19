@@ -307,6 +307,10 @@
 	justify-content: center;
 }
 
+.services {
+	font-size: 27px;
+}
+
 .footer {
 	position: fixed;
 	left: 0;
