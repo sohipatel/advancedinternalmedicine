@@ -306,12 +306,14 @@
 .contactinfo {
 	margin-left: 520px;
 	font-size: 28px;
+	text-align: left;
 }
 
 @media only screen and (max-width: 768 px) {
 	 .contactinfo {
-		margin-left: -1000px;
+		margin-left: 0px;
 		font-size: 32px;
+		text-align: left;
 	}
 }
 
