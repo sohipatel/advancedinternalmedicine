@@ -305,6 +305,15 @@
 
 .contactinfo {
 	justify-content: center;
+	margin-left: 800px;
+	font-size: 28px;
+}
+
+@media only screen and (max-width: 768 px) {
+	 .contactinfo {
+		margin-left: 300px;
+		font-size: 32px;
+	}
 }
 
 .services {
