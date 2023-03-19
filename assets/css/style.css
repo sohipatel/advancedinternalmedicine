@@ -304,13 +304,12 @@
 }
 
 .contactinfo {
-	margin-left: 540px;
+	margin-left: 520px;
 	font-size: 28px;
 }
 
 @media only screen and (max-width: 768 px) {
 	 .contactinfo {
-		margin-left: -500px;
 		font-size: 32px;
 	}
 }
