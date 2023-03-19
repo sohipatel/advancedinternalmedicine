@@ -298,6 +298,7 @@
 
 @media only screen and (max-width: 768 px) {
 	 .res {
+		margin-left: -500px;
 		font-size: 32px;
 	}
 }
@@ -310,6 +311,7 @@
 
 @media only screen and (max-width: 768 px) {
 	 .contactinfo {
+		margin-left: -500px;
 		font-size: 32px;
 	}
 }
