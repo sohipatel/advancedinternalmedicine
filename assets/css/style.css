@@ -310,9 +310,10 @@
 }
 
 @media only screen and (max-width: 768 px) {
-	 .contactinfo {
-		margin-left: 0px;
-		font-size: 32px;
+	 .contactinfo p {
+		display: block;
+  		margin: 0;
+  		padding: 5px 0;
 		text-align: left;
 	}
 }
