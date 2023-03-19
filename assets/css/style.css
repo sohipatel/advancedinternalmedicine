@@ -117,7 +117,7 @@
 	}
 }
 
- .stepcontainer {
+.stepcontainer {
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
@@ -133,19 +133,19 @@
 	}
 }
 
- .stepimage {
+.stepimage {
 	 flex-basis: 40%;
 	 margin-left: 300px;
 }
 
- @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	 .stepimage {
 		 flex-basis: 40%;
 		 margin-left: 0px;
 	}
 }
 
- .steptext {
+.steptext {
 	 text-align: left;
 	 width: 95%;
 	 margin-left: -350px;
@@ -187,6 +187,20 @@
 .box {
 	display: flex;
 	justify-content: center;
+}
+
+.covid {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid red;
+}
+
+@media only screen and (max-width: 768px) {
+	 .covid {
+		 display: inline-block;
+		 padding: 10px;
+		 border: 2px solid red;
+	}
 }
 
 .TMnext {
