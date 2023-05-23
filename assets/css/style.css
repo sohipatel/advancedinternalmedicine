@@ -326,11 +326,11 @@ line-height:1;
 
   .MDJimage {
     margin: 0 auto 20px auto;
-    flex-basis: auto;
+    flex-basis: 30%;
   }
 
   .MDJtext {
-    padding: 0;
+    padding-left: 7%;
   }
 }
 
