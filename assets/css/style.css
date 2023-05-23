@@ -217,8 +217,10 @@
   padding-right: 7%;
 }
 
-.TMtop {
-	padding-left: 10%;
+@media only screen and (max-width: 768px) {
+	.TMtop {
+		padding-left: 10%;
+	}
 }
 
 .two-columns {
