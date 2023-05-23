@@ -371,6 +371,19 @@ line-height:1;
   }
 }
 
+.contacttitle {
+	color: #00BBD7;
+	font-size: 42px;
+	font-style: bold;
+	margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+	.contacttitle {
+		margin-left: 85%;
+	}
+}
+
 .contactinfo {
   margin-left: 520px;
   font-size: 28px;
@@ -379,8 +392,9 @@ line-height:1;
 
 @media only screen and (max-width: 768px) {
   .contactinfo {
-    margin-left: 30%;
+    margin-left: 85%;
     font-size: 32px;
+    width: 100%;
     text-align: center;
   }
 }
