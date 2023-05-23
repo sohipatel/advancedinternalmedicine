@@ -364,8 +364,10 @@ line-height:1;
 @media only screen and (max-width: 768px) {
   .res {
     margin: 0 auto;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 }
 
