@@ -353,15 +353,16 @@ line-height:1;
 }
 
 .res {
-	margin-left: 500px;
-	font-size: 28px;
+  margin-left: 500px;
+  font-size: 28px;
 }
 
-@media only screen and (max-width: 768 px) {
-	 .res {
-		margin-left: -500px;
-		font-size: 32px;
-	}
+@media only screen and (max-width: 768px) {
+  .res {
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+  }
 }
 
 .contactinfo {
