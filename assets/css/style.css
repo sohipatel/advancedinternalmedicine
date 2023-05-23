@@ -213,7 +213,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-left: 10%;
+  padding-left: 7%;
 }
 
 .two-columns {
@@ -223,7 +223,7 @@
 }
 
 .two-columns > div {
-  width: 35%; /* adjust width as needed */
+  width: 40%;
 }
 
 .two-columns ul {
