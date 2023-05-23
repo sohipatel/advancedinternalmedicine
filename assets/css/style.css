@@ -371,7 +371,7 @@ line-height:1;
   }
 }
 
-.contacttitle {
+.contacttitle h2 {
 	color: #00BBD7;
 	font-size: 42px;
 	font-style: bold;
@@ -379,8 +379,9 @@ line-height:1;
 }
 
 @media only screen and (max-width: 768px) {
-	.contacttitle {
+	.contacttitle h2 {
 		margin-left: 85%;
+		width: 100%;
 	}
 }
 
@@ -392,7 +393,7 @@ line-height:1;
 
 @media only screen and (max-width: 768px) {
   .contactinfo {
-    margin-left: 85%;
+    margin-left: 60%;
     font-size: 32px;
     width: 100%;
     text-align: center;
