@@ -1717,3 +1717,418 @@ iframe {
 .star:after {
   content: "\2605";
 }
+
+/* =========================================================
+   TELEMEDICINE PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE HERO
+   ========================================================= */
+
+.page-hero {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eef8f8 0%,
+      #f7fbfb 58%,
+      #ffffff 100%
+    );
+
+  border-bottom: 1px solid var(--color-border);
+}
+
+.page-hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 430px;
+  height: 430px;
+
+  right: -170px;
+  top: -210px;
+
+  border-radius: 50%;
+
+  background: rgba(139, 189, 63, 0.10);
+
+  pointer-events: none;
+}
+
+.page-hero-inner {
+  position: relative;
+  z-index: 1;
+
+  min-height: 440px;
+
+  display: flex;
+  align-items: center;
+}
+
+.page-hero-content {
+  max-width: 780px;
+
+  padding: 75px 0;
+}
+
+.page-hero h1 {
+  margin: 0;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2.7rem, 6vw, 4.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+
+  font-weight: 700;
+}
+
+.page-hero h1 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.page-hero-content > p:not(.eyebrow) {
+  max-width: 700px;
+
+  margin: 23px 0 0;
+
+  color: var(--color-text-light);
+
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   TELEMEDICINE INFORMATION CARDS
+   ========================================================= */
+
+.telemedicine-info {
+  background: var(--color-white);
+}
+
+.info-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.info-card {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 20px;
+
+  padding: 30px;
+
+  background: var(--color-background-soft);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+}
+
+.info-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+
+  width: 46px;
+  height: 46px;
+
+  color: var(--color-primary);
+
+  background: var(--color-primary-light);
+
+  border-radius: 50%;
+
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.info-card h3 {
+  margin: 0 0 7px;
+
+  color: var(--color-heading);
+
+  font-size: 1.12rem;
+}
+
+.info-card p {
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.info-card-alert {
+  background: #fff9f7;
+
+  border-color: #f0ddd8;
+}
+
+.info-card-alert .info-card-icon {
+  color: #a94a39;
+
+  background: #fbe9e5;
+}
+
+
+/* =========================================================
+   BENEFITS
+   ========================================================= */
+
+.section-benefits {
+  background: var(--color-background-soft);
+}
+
+.two-column-heading {
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 90px;
+
+  align-items: end;
+
+  margin-bottom: 48px;
+}
+
+.two-column-heading h2 {
+  max-width: 560px;
+
+  margin: 0;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.two-column-heading h2 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.two-column-heading > p {
+  max-width: 620px;
+
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 1.04rem;
+  line-height: 1.75;
+}
+
+.benefits-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.benefit-card {
+  min-height: 220px;
+
+  padding: 30px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.benefit-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: var(--shadow-small);
+}
+
+.benefit-number {
+  display: block;
+
+  margin-bottom: 28px;
+
+  color: var(--color-primary);
+
+  font-size: 0.75rem;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+}
+
+.benefit-card h3 {
+  margin: 0 0 9px;
+
+  color: var(--color-heading);
+
+  font-size: 1.15rem;
+}
+
+.benefit-card p {
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   CONDITIONS
+   ========================================================= */
+
+.section-conditions {
+  background: var(--color-white);
+}
+
+.conditions-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 12px;
+}
+
+.condition-item {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  min-height: 58px;
+
+  padding: 12px 17px;
+
+  color: var(--color-heading);
+
+  background: var(--color-background-warm);
+
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.condition-item span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+
+  width: 24px;
+  height: 24px;
+
+  color: var(--color-primary);
+
+  background: var(--color-primary-light);
+
+  border-radius: 50%;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   TELEMEDICINE MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .two-column-heading {
+    grid-template-columns: 1fr;
+
+    gap: 22px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conditions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .page-hero-inner {
+    min-height: auto;
+  }
+
+  .page-hero-content {
+    padding: 58px 0 64px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2.45rem, 12vw, 3.3rem);
+  }
+
+  .page-hero-content > p:not(.eyebrow) {
+    font-size: 1rem;
+  }
+
+  .info-card {
+    padding: 24px;
+
+    gap: 15px;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card {
+    min-height: auto;
+  }
+
+  .conditions-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 380px) {
+
+  .info-card {
+    padding: 20px;
+  }
+
+  .info-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+}
