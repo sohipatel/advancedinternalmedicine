@@ -2409,3 +2409,417 @@ iframe {
   }
 
 }
+
+/* =========================================================
+   MEET DR. JAIN PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   PHYSICIAN HERO
+   ========================================================= */
+
+.physician-hero {
+  background:
+    linear-gradient(
+      135deg,
+      #eef8f8 0%,
+      #f7fbfb 58%,
+      #ffffff 100%
+    );
+}
+
+
+/* =========================================================
+   PHYSICIAN INTRODUCTION
+   ========================================================= */
+
+.physician-introduction {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.physician-profile {
+  display: grid;
+
+  grid-template-columns: minmax(300px, 440px) 1fr;
+
+  gap: 80px;
+
+  align-items: center;
+}
+
+.physician-photo {
+  position: relative;
+
+  padding: 12px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-large);
+
+  box-shadow: var(--shadow-small);
+}
+
+.physician-photo::after {
+  content: "";
+
+  position: absolute;
+
+  z-index: -1;
+
+  left: 25px;
+  bottom: -20px;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: var(--radius-large);
+
+  background: var(--color-primary-light);
+}
+
+.physician-photo img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+
+  padding: 0;
+
+  border-radius: calc(var(--radius-large) - 7px);
+}
+
+.physician-introduction-content h2 {
+  max-width: 650px;
+
+  margin: 0 0 25px;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2.3rem, 5vw, 4rem);
+
+  line-height: 1.05;
+
+  letter-spacing: -0.045em;
+}
+
+.physician-introduction-content h2 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.physician-introduction-content .lead {
+  max-width: 650px;
+
+  margin: 0;
+
+  color: var(--color-text);
+
+  font-size: 1.12rem;
+
+  line-height: 1.85;
+}
+
+
+/* =========================================================
+   PHYSICIAN DETAILS
+   ========================================================= */
+
+.physician-details-soft {
+  background: var(--color-background-soft);
+}
+
+.section-heading {
+  max-width: 760px;
+
+  margin-bottom: 50px;
+}
+
+.section-heading h2 {
+  margin: 0;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  line-height: 1.1;
+
+  letter-spacing: -0.04em;
+}
+
+.section-heading h2 span {
+  color: var(--color-primary);
+}
+
+.physician-detail-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.physician-detail-card {
+  padding: 32px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-medium);
+}
+
+.detail-number {
+  margin-bottom: 30px;
+
+  color: var(--color-primary);
+
+  font-size: 0.75rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+}
+
+.physician-detail-card h3 {
+  margin: 0 0 13px;
+
+  color: var(--color-heading);
+
+  font-size: 1.2rem;
+}
+
+.physician-detail-card p {
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 0.94rem;
+
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   MEMBERSHIPS
+   ========================================================= */
+
+.membership-layout {
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 90px;
+
+  align-items: start;
+}
+
+.membership-heading h2 {
+  margin: 0 0 20px;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  line-height: 1.1;
+
+  letter-spacing: -0.04em;
+}
+
+.membership-heading h2 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.membership-heading > p:not(.eyebrow) {
+  max-width: 460px;
+
+  color: var(--color-text-light);
+
+  line-height: 1.75;
+}
+
+.membership-list {
+  border-top: 1px solid var(--color-border);
+}
+
+.membership-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+
+  padding: 24px 0;
+
+  border-bottom: 1px solid var(--color-border);
+}
+
+.membership-item > span {
+  color: var(--color-primary);
+
+  font-size: 0.72rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+}
+
+.membership-item strong {
+  display: block;
+
+  color: var(--color-heading);
+
+  font-size: 1.05rem;
+}
+
+.membership-item small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: var(--color-text-light);
+
+  font-size: 0.78rem;
+
+  letter-spacing: 0.05em;
+}
+
+
+/* =========================================================
+   PERSONAL SECTION
+   ========================================================= */
+
+.physician-personal {
+  background: var(--color-background-soft);
+}
+
+.personal-panel {
+  display: grid;
+
+  grid-template-columns: 0.7fr 1.3fr;
+
+  gap: 70px;
+
+  padding: 70px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-large);
+
+  box-shadow: var(--shadow-small);
+}
+
+.personal-accent {
+  color: var(--color-primary);
+
+  font-size: 0.78rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+}
+
+.personal-content h2 {
+  margin: 0 0 25px;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  line-height: 1.1;
+
+  letter-spacing: -0.04em;
+}
+
+.personal-content h2 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.personal-content p:not(.eyebrow) {
+  max-width: 700px;
+
+  color: var(--color-text-light);
+
+  font-size: 1rem;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   PHYSICIAN PAGE — MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .physician-profile {
+    grid-template-columns: minmax(250px, 380px) 1fr;
+
+    gap: 45px;
+  }
+
+  .physician-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .membership-layout {
+    gap: 50px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .physician-introduction {
+    padding-top: 65px;
+    padding-bottom: 75px;
+  }
+
+  .physician-profile {
+    grid-template-columns: 1fr;
+
+    gap: 55px;
+  }
+
+  .physician-photo {
+    width: min(100%, 420px);
+
+    margin: 0 auto;
+  }
+
+  .membership-layout {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+  .personal-panel {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+
+    padding: 35px 28px;
+  }
+
+  .personal-accent {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid var(--color-border);
+  }
+
+}
