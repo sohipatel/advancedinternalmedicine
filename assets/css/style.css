@@ -2132,3 +2132,280 @@ iframe {
   }
 
 }
+/* =========================================================
+   SERVICES PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   SERVICES HERO
+   ========================================================= */
+
+.services-hero {
+  background:
+    linear-gradient(
+      135deg,
+      #eef8f8 0%,
+      #f7fbfb 58%,
+      #ffffff 100%
+    );
+}
+
+
+/* =========================================================
+   SERVICES INTRO
+   ========================================================= */
+
+.services-intro {
+  padding-bottom: 65px;
+}
+
+
+/* =========================================================
+   SERVICE CATEGORIES
+   ========================================================= */
+
+.services-category {
+  background: var(--color-white);
+}
+
+.services-category-soft {
+  background: var(--color-background-soft);
+}
+
+.service-category-heading {
+  display: grid;
+
+  grid-template-columns: 90px 1fr;
+
+  gap: 30px;
+
+  max-width: 900px;
+
+  margin-bottom: 45px;
+}
+
+.service-category-number {
+  color: var(--color-primary);
+
+  font-size: 0.8rem;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+
+  padding-top: 8px;
+
+  border-top: 2px solid var(--color-primary);
+}
+
+.service-category-heading h2 {
+  margin: 0;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  line-height: 1.1;
+
+  letter-spacing: -0.04em;
+}
+
+.service-category-heading h2 span {
+  display: block;
+
+  color: var(--color-primary);
+}
+
+.service-category-heading p:not(.eyebrow) {
+  max-width: 690px;
+
+  margin: 18px 0 0;
+
+  color: var(--color-text-light);
+
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   SERVICE CARDS
+   ========================================================= */
+
+.service-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.service-card {
+  padding: 30px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-medium);
+
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.services-category-soft .service-card {
+  background: var(--color-white);
+}
+
+.service-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: var(--shadow-small);
+}
+
+.service-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  margin-bottom: 23px;
+
+  color: var(--color-primary);
+
+  background: var(--color-primary-light);
+
+  border-radius: 50%;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.service-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--color-heading);
+
+  font-size: 1.1rem;
+
+  line-height: 1.35;
+}
+
+.service-card p {
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 0.93rem;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   ADDITIONAL SERVICES LIST
+   ========================================================= */
+
+.service-list-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 15px;
+}
+
+.service-list-item {
+  display: flex;
+
+  gap: 22px;
+
+  padding: 27px;
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-medium);
+}
+
+.service-list-item > span {
+  flex: 0 0 auto;
+
+  color: var(--color-primary);
+
+  font-size: 0.72rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+
+  padding-top: 4px;
+}
+
+.service-list-item h3 {
+  margin: 0 0 6px;
+
+  color: var(--color-heading);
+
+  font-size: 1.05rem;
+}
+
+.service-list-item p {
+  margin: 0;
+
+  color: var(--color-text-light);
+
+  font-size: 0.92rem;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   SERVICES MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .service-category-heading {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+
+  .service-category-number {
+    width: fit-content;
+
+    padding-top: 0;
+
+    padding-bottom: 7px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-list-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+
+  .service-list-item {
+    padding: 23px;
+  }
+
+}
