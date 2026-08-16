@@ -1,191 +1,673 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Services | Advanced Internal Medicine of the Woodlands</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/style.css">
 
+  <title>Medical Services | Advanced Internal Medicine of the Woodlands</title>
+
+  <meta
+    name="description"
+    content="Explore comprehensive internal medicine services offered by Dr. Mamta Jain at Advanced Internal Medicine of the Woodlands, including preventive care, chronic disease management, physicals, vaccinations, and more."
+  >
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#ffffff">
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myNavelements");
-      x.classList.toggle("responsive");
-    }
-  </script>
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+
 <body>
+
+  <!-- =========================================================
+       HEADER / NAVIGATION
+       ========================================================= -->
+
   <header class="site-header">
-    <nav class="navbar" id="myNavbar" aria-label="Main navigation">
-      <a class="site-logo" href="/" aria-label="Advanced Internal Medicine home">
-        <img src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png"
-             alt="Advanced Internal Medicine" height="65">
+    <div class="container header-inner">
+
+      <a
+        class="brand"
+        href="/"
+        aria-label="Advanced Internal Medicine of the Woodlands home"
+      >
+        <img
+          src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png"
+          alt="Advanced Internal Medicine of the Woodlands"
+          class="brand-logo"
+        >
       </a>
 
-      <div class="navelements" id="myNavelements">
-        <a href="contact-us">Contact Us</a>
-        <a href="resources">Resources</a>
-        <a href="meet-dr-jain">Meet Dr. Jain</a>
-        <a href="services" class="active" aria-current="page">Services</a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="primary-navigation"
+        id="primary-navigation"
+        aria-label="Primary navigation"
+      >
+        <a href="services" aria-current="page">Services</a>
         <a href="telemedicine">Telemedicine</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Open navigation menu">
-          <span aria-hidden="true">☰</span>
-        </a>
-      </div>
-    </nav>
+        <a href="meet-dr-jain">Meet Dr. Jain</a>
+        <a href="resources">Resources</a>
+        <a href="contact-us" class="nav-cta">Contact Us</a>
+      </nav>
+
+    </div>
   </header>
 
-  <main class="page-main services-page">
-    <section class="page-hero">
-      <p class="eyebrow">Comprehensive Primary Care</p>
-      <h1>Medical Services</h1>
-      <p class="page-intro">
-        Our office provides comprehensive medical services focused on prevention,
-        diagnosis, treatment, and long-term health.
-      </p>
+
+  <main>
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
+    <section class="page-hero services-hero">
+
+      <div class="container page-hero-inner">
+
+        <div class="page-hero-content">
+
+          <p class="eyebrow">
+            Comprehensive Internal Medicine
+          </p>
+
+          <h1>
+            Medical care for
+            <span>every stage of life.</span>
+          </h1>
+
+          <p>
+            Advanced Internal Medicine of the Woodlands provides
+            comprehensive medical services focused on prevention,
+            evaluation, treatment, and long-term management.
+          </p>
+
+          <div class="hero-actions">
+
+            <a
+              href="contact-us"
+              class="button button-primary"
+            >
+              Contact Our Office
+            </a>
+
+            <a
+              href="tel:12818363627"
+              class="button button-secondary"
+            >
+              (281) 836-3627
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </section>
 
-    <section class="services-grid" aria-label="Medical services">
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">01</span>
-          <h2>Preoperative Medical Evaluations</h2>
-        </div>
-        <p>Medical evaluations and consultations for surgical patients.</p>
-      </article>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">02</span>
-          <h2>Annual Physicals</h2>
-        </div>
-        <p>Physical examinations for college, sports, employment, and general wellness.</p>
-      </article>
+    <!-- =========================================================
+         INTRO
+         ========================================================= -->
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">03</span>
-          <h2>Well Woman Exams</h2>
-        </div>
-        <p>Routine preventive care and health evaluations for women.</p>
-      </article>
+    <section class="section services-intro">
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">04</span>
-          <h2>Diabetes</h2>
-        </div>
-        <p>Diabetes screening, evaluation, and ongoing management.</p>
-      </article>
+      <div class="container">
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">05</span>
-          <h2>Thyroid Disorders</h2>
-        </div>
-        <p>Evaluation and management of thyroid disorders.</p>
-      </article>
+        <div class="two-column-heading">
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">06</span>
-          <h2>Hypertension &amp; Heart Disease</h2>
-        </div>
-        <p>Evaluation and management of high blood pressure and heart disease.</p>
-      </article>
+          <div>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">07</span>
-          <h2>Cholesterol</h2>
-        </div>
-        <p>Cholesterol screening and management.</p>
-      </article>
+            <p class="eyebrow">
+              Our Services
+            </p>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">08</span>
-          <h2>Lung &amp; Breathing Problems</h2>
-        </div>
-        <p>Management of lung disorders and breathing problems.</p>
-      </article>
+            <h2>
+              Comprehensive care,
+              <span>centered on you.</span>
+            </h2>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">09</span>
-          <h2>Abdominal Disorders</h2>
-        </div>
-        <p>Evaluation and management of abdominal disorders.</p>
-      </article>
+          </div>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">10</span>
-          <h2>Arthritis &amp; Osteoporosis</h2>
-        </div>
-        <p>Evaluation and management of arthritis and osteoporosis.</p>
-      </article>
+          <p>
+            Our office provides a broad range of internal medicine
+            services, from routine preventive care and physical
+            examinations to evaluation and management of ongoing
+            medical conditions.
+          </p>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">11</span>
-          <h2>Preventive Medicine</h2>
         </div>
-        <p>Preventive care focused on maintaining health and detecting problems early.</p>
-      </article>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">12</span>
-          <h2>Obesity &amp; Weight Management</h2>
-        </div>
-        <p>Support for healthy weight management and related health concerns.</p>
-      </article>
+      </div>
 
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">13</span>
-          <h2>Smoking &amp; Alcohol Counseling</h2>
-        </div>
-        <p>Counseling and cessation support for smoking and alcohol use.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">14</span>
-          <h2>Adolescent Medicine</h2>
-        </div>
-        <p>Medical care and preventive services for adolescents.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">15</span>
-          <h2>Cold, Sinus &amp; Allergy Care</h2>
-        </div>
-        <p>Prevention and treatment of colds, sinus conditions, and allergies.</p>
-      </article>
-
-      <article class="service-card">
-        <div class="service-card-header">
-          <span class="service-card-icon" aria-hidden="true">16</span>
-          <h2>Vaccinations</h2>
-        </div>
-        <p>Recommended vaccinations as part of preventive healthcare.</p>
-      </article>
     </section>
+
+
+    <!-- =========================================================
+         PREVENTIVE CARE
+         ========================================================= -->
+
+    <section class="section services-category services-category-soft">
+
+      <div class="container">
+
+        <div class="service-category-heading">
+
+          <div class="service-category-number">
+            01
+          </div>
+
+          <div>
+
+            <p class="eyebrow">
+              Prevention &amp; Wellness
+            </p>
+
+            <h2>
+              Stay ahead of your health.
+            </h2>
+
+            <p>
+              Preventive care helps identify potential health concerns
+              early while supporting your overall health and wellness.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="service-grid">
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Annual Physicals</h3>
+
+            <p>
+              Physical examinations for college, sports, and
+              employment.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Well Woman Exams</h3>
+
+            <p>
+              Routine preventive care and health evaluations for women.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Preventive Medicine</h3>
+
+            <p>
+              Preventive health services designed to support long-term
+              health and early detection.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Vaccinations</h3>
+
+            <p>
+              Vaccination services as part of comprehensive preventive
+              medical care.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Diabetes Screening</h3>
+
+            <p>
+              Screening and evaluation for diabetes and related health
+              concerns.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Cholesterol Screening</h3>
+
+            <p>
+              Cholesterol screening and management as part of
+              cardiovascular health care.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CHRONIC CONDITION MANAGEMENT
+         ========================================================= -->
+
+    <section class="section services-category">
+
+      <div class="container">
+
+        <div class="service-category-heading">
+
+          <div class="service-category-number">
+            02
+          </div>
+
+          <div>
+
+            <p class="eyebrow">
+              Ongoing Medical Care
+            </p>
+
+            <h2>
+              Evaluation &amp; condition management.
+            </h2>
+
+            <p>
+              Comprehensive evaluation and management for a variety
+              of chronic and acute medical concerns.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="service-grid">
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Hypertension &amp; Heart Disease</h3>
+
+            <p>
+              Evaluation and management of high blood pressure and
+              heart disease.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Thyroid Disorders</h3>
+
+            <p>
+              Evaluation and management of thyroid disorders.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Lung &amp; Breathing Problems</h3>
+
+            <p>
+              Management of lung disorders and breathing problems.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Abdominal Disorders</h3>
+
+            <p>
+              Evaluation and management of abdominal health concerns.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Arthritis &amp; Osteoporosis</h3>
+
+            <p>
+              Evaluation and management of arthritis and osteoporosis.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-card-icon">
+              +
+            </div>
+
+            <h3>Obesity &amp; Weight Management</h3>
+
+            <p>
+              Medical evaluation and management related to obesity
+              and weight.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         ADDITIONAL SERVICES
+         ========================================================= -->
+
+    <section class="section services-category services-category-soft">
+
+      <div class="container">
+
+        <div class="service-category-heading">
+
+          <div class="service-category-number">
+            03
+          </div>
+
+          <div>
+
+            <p class="eyebrow">
+              Additional Services
+            </p>
+
+            <h2>
+              Support for your
+              <span>broader healthcare needs.</span>
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="service-list-grid">
+
+          <div class="service-list-item">
+            <span>01</span>
+            <div>
+              <h3>Preoperative Evaluations</h3>
+              <p>
+                Medical evaluations and consultations for surgical
+                patients.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service-list-item">
+            <span>02</span>
+            <div>
+              <h3>Adolescent Medicine</h3>
+              <p>
+                Medical care and evaluation for adolescents.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service-list-item">
+            <span>03</span>
+            <div>
+              <h3>Smoking &amp; Alcohol Counseling</h3>
+              <p>
+                Counseling and support for smoking and alcohol
+                cessation.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="service-list-item">
+            <span>04</span>
+            <div>
+              <h3>Cold, Sinus &amp; Allergy Care</h3>
+              <p>
+                Prevention and treatment of common cold, sinus,
+                and allergy concerns.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CTA
+         ========================================================= -->
+
+    <section class="final-cta">
+
+      <div class="container final-cta-inner">
+
+        <div>
+
+          <p class="eyebrow">
+            Advanced Internal Medicine of the Woodlands
+          </p>
+
+          <h2>
+            Looking for comprehensive primary care?
+          </h2>
+
+        </div>
+
+        <div class="hero-actions">
+
+          <a
+            href="contact-us"
+            class="button button-primary"
+          >
+            Contact Our Office
+          </a>
+
+          <a
+            href="tel:12818363627"
+            class="button button-secondary"
+          >
+            (281) 836-3627
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <footer class="footer">
-    <p>Proudly serving Greater North Houston since 2010</p>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+
+        <strong>
+          Advanced Internal Medicine
+        </strong>
+
+        <span>
+          of the Woodlands
+        </span>
+
+      </div>
+
+
+      <div class="footer-info">
+
+        <a href="tel:12818363627">
+          (281) 836-3627
+        </a>
+
+        <address>
+          3115 College Park Dr., Ste. 112<br>
+          The Woodlands, TX 77384
+        </address>
+
+      </div>
+
+
+      <div class="footer-tagline">
+        Proudly serving Greater North Houston since 2010.
+      </div>
+
+    </div>
+
   </footer>
+
+
+  <!-- =========================================================
+       MOBILE NAVIGATION
+       ========================================================= -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".primary-navigation");
+
+      if (menuButton && navigation) {
+
+        menuButton.addEventListener("click", function () {
+
+          const isOpen = navigation.classList.toggle("is-open");
+
+          menuButton.setAttribute(
+            "aria-expanded",
+            isOpen ? "true" : "false"
+          );
+
+          menuButton.setAttribute(
+            "aria-label",
+            isOpen
+              ? "Close navigation menu"
+              : "Open navigation menu"
+          );
+
+        });
+
+
+        navigation.querySelectorAll("a").forEach(function (link) {
+
+          link.addEventListener("click", function () {
+
+            navigation.classList.remove("is-open");
+
+            menuButton.setAttribute(
+              "aria-expanded",
+              "false"
+            );
+
+            menuButton.setAttribute(
+              "aria-label",
+              "Open navigation menu"
+            );
+
+          });
+
+        });
+
+      }
+
+    });
+  </script>
+
 </body>
 </html>
