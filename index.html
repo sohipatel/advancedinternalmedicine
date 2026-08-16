@@ -1,117 +1,495 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Advanced Internal Medicine | Dr. Mamta Jain, M.D.</title>
-    <meta name="viewport" content="width=device-width, maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-      
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myNavelements");
-        if (x.className === "navelements") {
-          x.className += " responsive";
-        } else {
-          x.className = "navelements";
-        }
-      };
-    </script>
-  
-  </head>
+<head>
+  <meta charset="utf-8">
 
-  <body style="background-color: #ffffff; font-family: helvetica;">
+  <title>Advanced Internal Medicine | Dr. Mamta Jain, M.D.</title>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta
+    name="description"
+    content="Advanced Internal Medicine of the Woodlands, led by board-certified internist Dr. Mamta Jain, provides comprehensive internal medicine care in The Woodlands, Texas."
+  >
 
-          <div class="navbar" id="myNavbar">
-            <left>
-              <a href="https://texasinternalmedicine.com">
-                <img src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png" height="65" align="left">
-              </a>
-            </left>
-            <div class="navelements" id="myNavelements">
-              <a href="contact-us" align="right" class="active">Contact Us</a>
-              <a href="resources" align="right">Resources</a>
-              <a href="meet-dr-jain" align="right">Meet Dr. Jain</a>
-              <a href="services" align="right">Services</a>
-              <a href="telemedicine" align="right">Telemedicine</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars" style="font-size:34px"></i>
-              </a>
-          </div>
-        </header>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Google Reviews -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.css"
+  >
+</head>
+
+<body>
+
+  <!-- =========================================================
+       HEADER / NAVIGATION
+       ========================================================= -->
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a class="brand" href="/" aria-label="Advanced Internal Medicine of the Woodlands home">
+        <img
+          src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png"
+          alt="Advanced Internal Medicine of the Woodlands"
+          class="brand-logo"
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="primary-navigation"
+        id="primary-navigation"
+        aria-label="Primary navigation"
+      >
+        <a href="services">Services</a>
+        <a href="telemedicine">Telemedicine</a>
+        <a href="meet-dr-jain">Meet Dr. Jain</a>
+        <a href="resources">Resources</a>
+        <a href="contact-us" class="nav-cta">Contact Us</a>
+      </nav>
+
     </div>
+  </header>
 
-        <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <br><br><br><br>
-        <center><b><h1 style="font-style: bold; margin-bottom: -10px;">Dr. Mamta Jain, M.D.</h1></b></center>
-        <center><b><h2 style="font-style: bold;">Advanced Internal Medicine of the Woodlands</h2></b></center>
-        <center>
-          <span style="display: inline-block; padding: 10px; border: 2px solid red;">
-            <h3 style="color: red; margin: 0;"><b>Same day appointments are available!</b></h3>
-            <div class="lilspacer"></div>
-            <h3 style="color: black; margin: 0;"> Call (281) 836-3627 or request online to schedule your visit </h3>
-          </span>
-        </center>
-        <br>
-        <br>
-        <center>
-        <iframe title="Book online appointments with Mamta Jain | Patient Fusion" src="https://www.patientfusion.com/doctor/mamta-jain-md-57167" 
-                style="border:1px #000000 solid;" name="iFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" 
-                width="100%" allowfullscreen></iframe>
-        </center>
-        <div class="midspacer"></div>
-        <center><b><h2 style="color: #00BBD7; font-size: 38px; margin-bottom: -10px;">Welcome to Advanced Internal Medicine!</h2></b></center>
-        <center><h4 style="color: black;">Dr. Mamta Jain, a board certified physician in internal medicine, delivers expert medical care that consistently enhances her patients' quality of life. Dr. Jain established Advanced Internal Medicine of the Woodlands in 2010 with a commitment to compassionately serving the residents of Montgomery County and their loved ones.
-        <div class="bigspacer"></div>
-          Driven by her dedication to delivering effective patient care, Dr. Jain imbues her office's philosophy with the values of family-centeredness and collaboration. Her focus on preventative medicine, early detection, and comprehensive evaluation pairs well with her multidisciplinary approach to therapy, cementing her reputation as a caring clinician who leaves no stone unturned in her pursuit of optimal patient health.</h4></center>
-        <div class="lilspacer"></div>
-        <div class="box">
-          <div class="contactbox">
-            <center><h3 style="font-size: 26px; font-weight: normal;">Dr. Jain is accepting new patients! Call us today for an appointment:</h3></center>
-            <center><b><h2 style="color: red; font-size: 26px; font-weight: bold;">(281) 836-3627</h2><b></center>
-            <center><h3 style="font-size: 26px; font-weight: normal;">Dr. Jain's office is located at:</h3></center>
-            <center><b><h2 style="color: red; font-size: 26px; font-weight: bold;">3115 College Park Dr., Ste. 112, The Woodlands, TX 77384</h2></b>
-            <h3 style="color: black; font-weight: normal;">(College Park Medical Plaza, off of SH-242, on Achievement Drive, next to College Park High School)</h3></center>
-            <center><h3 style="color: black; font-weight: normal;">We accept most insurance plans, including Medicare. Please contact our office to verify your insurance.</h3></center>
+
+  <main>
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
+    <section class="hero">
+      <div class="container hero-inner">
+
+        <div class="hero-content">
+
+          <p class="eyebrow">Advanced Internal Medicine of the Woodlands</p>
+
+          <h1>
+            Personalized Internal Medicine Care
+            <span>for You and Your Family</span>
+          </h1>
+
+          <p class="hero-text">
+            Dr. Mamta Jain is a board-certified internal medicine physician
+            providing comprehensive, compassionate medical care to patients
+            in The Woodlands and surrounding communities.
+          </p>
+
+          <div class="hero-actions">
+            <a href="tel:12818363627" class="button button-primary">
+              Call (281) 836-3627
+            </a>
+
+            <a href="#appointments" class="button button-secondary">
+              Request an Appointment
+            </a>
           </div>
+
+          <div class="hero-note">
+            <span class="hero-note-icon" aria-hidden="true">✓</span>
+            <span>
+              <strong>Same-day appointments may be available.</strong>
+              Call our office to check availability.
+            </span>
+          </div>
+
         </div>
-        <br>
-        <br>
-        <div class="bigspacer"></div>
-        <div id="google-reviews"></div>
 
-          <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script> <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBRxR3oX4J2WNUX7DJbG1nCEucNvkftRyc&signed_in=true&libraries=places"></script> <script>jQuery(document).ready(function( $ ) {
-            $("#google-reviews").googlePlaces({
-              placeId: 'ChIJIWyc9jc3R4YRpmwbpRliSZg'
-                , render: ['reviews']
-                , min_rows: 8
-            });
-          });</script> </div>
-        <br>
-        <br>
-        <br>
-      </section>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         APPOINTMENT / BOOKING
+         ========================================================= -->
+
+    <section class="section section-booking" id="appointments">
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="eyebrow">Appointments</p>
+
+          <h2>Schedule Your Visit</h2>
+
+          <p>
+            Request an appointment online or call our office directly.
+            Our staff can also help verify your insurance and answer
+            questions about your visit.
+          </p>
+        </div>
+
+        <div class="booking-card">
+
+          <div class="booking-card-header">
+            <div>
+              <h3>Request an Appointment Online</h3>
+              <p>
+                Use the appointment system below to request your visit.
+              </p>
+            </div>
+
+            <a href="tel:12818363627" class="booking-phone">
+              (281) 836-3627
+            </a>
+          </div>
+
+          <div class="booking-frame">
+            <iframe
+              title="Book an appointment with Dr. Mamta Jain"
+              src="https://www.patientfusion.com/doctor/mamta-jain-md-57167"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         INTRODUCTION
+         ========================================================= -->
+
+    <section class="section section-introduction">
+      <div class="container">
+
+        <div class="intro-grid">
+
+          <div class="intro-heading">
+            <p class="eyebrow">Welcome</p>
+
+            <h2>
+              Comprehensive care with a
+              <span>personal approach.</span>
+            </h2>
+          </div>
+
+          <div class="intro-copy">
+
+            <p>
+              Dr. Mamta Jain, a board-certified physician in internal
+              medicine, delivers expert medical care focused on improving
+              her patients' quality of life.
+            </p>
+
+            <p>
+              Dr. Jain established Advanced Internal Medicine of the
+              Woodlands in 2010 with a commitment to compassionately serving
+              the residents of Montgomery County and their loved ones.
+            </p>
+
+            <p>
+              Her practice emphasizes preventative medicine, early
+              detection, comprehensive evaluation, and collaborative
+              treatment. Her multidisciplinary approach allows each
+              patient's care to be considered as a whole.
+            </p>
+
+            <a href="meet-dr-jain" class="text-link">
+              Learn more about Dr. Jain
+              <span aria-hidden="true">→</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         PRACTICE VALUES
+         ========================================================= -->
+
+    <section class="section section-values">
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="eyebrow">Our Approach</p>
+
+          <h2>Care built around the whole patient</h2>
+        </div>
+
+        <div class="values-grid">
+
+          <article class="value-card">
+            <div class="value-icon" aria-hidden="true">01</div>
+
+            <h3>Preventative Care</h3>
+
+            <p>
+              Focused on prevention, early detection, and maintaining
+              long-term health.
+            </p>
+          </article>
+
+          <article class="value-card">
+            <div class="value-icon" aria-hidden="true">02</div>
+
+            <h3>Comprehensive Evaluation</h3>
+
+            <p>
+              Thorough evaluation and thoughtful treatment tailored to
+              each patient's individual needs.
+            </p>
+          </article>
+
+          <article class="value-card">
+            <div class="value-icon" aria-hidden="true">03</div>
+
+            <h3>Family-Centered Care</h3>
+
+            <p>
+              A collaborative approach designed to support patients and
+              the people who care for them.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         NEW PATIENT / CONTACT INFORMATION
+         ========================================================= -->
+
+    <section class="section section-contact">
+      <div class="container">
+
+        <div class="contact-panel">
+
+          <div class="contact-panel-main">
+
+            <p class="eyebrow">New Patients Welcome</p>
+
+            <h2>
+              Ready to schedule your visit?
+            </h2>
+
+            <p>
+              Dr. Jain is accepting new patients. Contact our office to
+              schedule an appointment or to verify your insurance coverage.
+            </p>
+
+            <div class="contact-actions">
+
+              <a href="tel:12818363627" class="button button-light">
+                Call (281) 836-3627
+              </a>
+
+              <a href="contact-us" class="button button-outline-light">
+                Contact the Office
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="contact-panel-details">
+
+            <div class="detail-item">
+              <span class="detail-label">Office</span>
+
+              <address>
+                3115 College Park Dr., Ste. 112<br>
+                The Woodlands, TX 77384
+              </address>
+            </div>
+
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+
+              <p>
+                College Park Medical Plaza, off SH-242 on Achievement Drive,
+                next to College Park High School.
+              </p>
+            </div>
+
+            <div class="detail-item">
+              <span class="detail-label">Insurance</span>
+
+              <p>
+                We accept most insurance plans, including Medicare.
+                Please contact our office to verify your insurance.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         PATIENT REVIEWS
+         ========================================================= -->
+
+    <section class="section section-reviews">
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <p class="eyebrow">Patient Reviews</p>
+
+          <h2>What Our Patients Say</h2>
+
+          <p>
+            Read feedback from patients who have visited Advanced Internal
+            Medicine of the Woodlands.
+          </p>
+
+        </div>
+
+        <div id="google-reviews" class="reviews-container"></div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         FINAL CTA
+         ========================================================= -->
+
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+
+        <div>
+          <p class="eyebrow">Advanced Internal Medicine of the Woodlands</p>
+
+          <h2>
+            Quality medical care starts with a conversation.
+          </h2>
+        </div>
+
+        <a href="tel:12818363627" class="button button-primary">
+          Call Our Office
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <strong>Advanced Internal Medicine</strong>
+        <span>of the Woodlands</span>
+      </div>
+
+      <div class="footer-info">
+        <a href="tel:12818363627">(281) 836-3627</a>
+
+        <address>
+          3115 College Park Dr., Ste. 112<br>
+          The Woodlands, TX 77384
+        </address>
+      </div>
+
+      <div class="footer-tagline">
+        Proudly serving Greater North Houston since 2010.
+      </div>
+
     </div>
 
-    <!-- FOOTER  -->
-    <div class="footer">
-      <p>Proudly serving Greater North Houston since 2010</p>
-    </div>
-  </body>
+  </footer>
+
+
+  <!-- =========================================================
+       JAVASCRIPT
+       ========================================================= -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".primary-navigation");
+
+      if (menuButton && navigation) {
+        menuButton.addEventListener("click", function () {
+
+          const isOpen = navigation.classList.toggle("is-open");
+
+          menuButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          menuButton.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation menu" : "Open navigation menu"
+          );
+
+        });
+
+        navigation.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            navigation.classList.remove("is-open");
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open navigation menu");
+          });
+        });
+      }
+
+    });
+  </script>
+
+
+  <!-- Google Reviews dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+
+      $("#google-reviews").googlePlaces({
+        placeId: "ChIJIWyc9jc3R4YRpmwbpRliSZg",
+        render: ["reviews"],
+        min_rows: 8
+      });
+
+    });
+  </script>
+
+</body>
 </html>
