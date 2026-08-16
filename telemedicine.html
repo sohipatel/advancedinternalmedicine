@@ -1,123 +1,619 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Telemedicine | Advanced Internal Medicine</title>
-    <meta name="viewport" content="width=device-width, maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-      
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myNavelements");
-        if (x.className === "navelements") {
-          x.className += " responsive";
-        } else {
-          x.className = "navelements";
-        }
-      };
-    </script>
-  
-  </head>
+<head>
+  <meta charset="utf-8">
 
-  <body style="background-color: #ffffff; font-family: helvetica;">
+  <title>Telemedicine | Advanced Internal Medicine of the Woodlands</title>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta
+    name="description"
+    content="Learn about telemedicine appointments with Advanced Internal Medicine of the Woodlands and Dr. Mamta Jain, including appointment information, benefits, and conditions that may be addressed remotely."
+  >
 
-          <div class="navbar" id="myNavbar">
-            <left>
-              <a href="https://texasinternalmedicine.com">
-                <img src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png" height="65" align="left">
-              </a>
-            </left>
-            <div class="navelements" id="myNavelements">
-              <a href="contact-us" align="right" class="active">Contact Us</a>
-              <a href="resources" align="right">Resources</a>
-              <a href="meet-dr-jain" align="right">Meet Dr. Jain</a>
-              <a href="services" align="right">Services</a>
-              <a href="telemedicine" align="right">Telemedicine</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars" style="font-size:34px"></i>
-              </a>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+  <!-- =========================================================
+       HEADER / NAVIGATION
+       ========================================================= -->
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a
+        class="brand"
+        href="/"
+        aria-label="Advanced Internal Medicine of the Woodlands home"
+      >
+        <img
+          src="https://user-images.githubusercontent.com/69354578/224578176-10900e3e-1c70-47f6-989e-61e5f8d01c0b.png"
+          alt="Advanced Internal Medicine of the Woodlands"
+          class="brand-logo"
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="primary-navigation"
+        id="primary-navigation"
+        aria-label="Primary navigation"
+      >
+        <a href="services">Services</a>
+        <a href="telemedicine" aria-current="page">Telemedicine</a>
+        <a href="meet-dr-jain">Meet Dr. Jain</a>
+        <a href="resources">Resources</a>
+        <a href="contact-us" class="nav-cta">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =========================================================
+         PAGE HERO
+         ========================================================= -->
+
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+
+        <div class="page-hero-content">
+
+          <p class="eyebrow">Convenient Care From Home</p>
+
+          <h1>
+            Telemedicine
+            <span>Appointments</span>
+          </h1>
+
+          <p>
+            Access medical care remotely when an in-person visit is not
+            necessary or convenient. Telemedicine appointments allow you
+            to connect with your provider from the comfort of your home.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#telemedicine-booking" class="button button-primary">
+              Request a Telemedicine Visit
+            </a>
+
+            <a href="tel:12818363627" class="button button-secondary">
+              Call (281) 836-3627
+            </a>
           </div>
-        </header>
-    </div>
 
-        <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <br><br><br><br>
-        <div class="TMtop">
-          <center><b><h2 style="color: #00BBD7; font-size: 42px; font-style: bold; margin-bottom: -18px;">Telemedicine Information:</h2></b></center>
-          <center><h4 style="color: black; font-size: 28px;">If this is an emergency, call 911.
-          <div class="bigspacer"></div>
-            Your insurance will be billed for this visit. You are responsible for your copay, coinsurance, and/or deductibles as required by your insurance plan.
-          <div class="bigspacer"></div>
-            Your telemedicine provider may request an in-person follow-up visit before a diagnosis can be made, and care will be provided if necessary. Telemedicine charges still apply.
-          <div class="bigspacer"></div>
-            Your telemedicine session is private.</h4></center>
-          <div class="bigspacer"></div>
-          <center>
-          <iframe title="Book online appointments with Mamta Jain | Patient Fusion" src="https://www.patientfusion.com/doctor/mamta-jain-md-57167" 
-                  style="border:1px #000000 solid;" name="iFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" 
-                  width="100%" allowfullscreen></iframe>
-          </center>
         </div>
-        <div class="TMnext">
-          <div class="two-columns">
-            <div>
-              <h2 style="color: red; font-size: 28px;">Advantages of telemedicine:</h2>
-              <ul style="list-style: disc;">
-                <li style="font-size: 24px;">No transportation time or costs</li>
-                <li style="font-size: 24px;">No need to take time off of work</li>
-                <li style="font-size: 24px;">Eliminate child or elder care issues</li>
-                <li style="font-size: 24px;">On-demand options</li>
-                <li style="font-size: 24px;">Less chance of catching a new illness</li>
-                <li style="font-size: 24px;">Less chance of worsening existing illnesses</li>
-                <li style="font-size: 24px;">Less time in the waiting room</li>
-                <li style="font-size: 24px;">Better health overall</li>
-              </ul>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         IMPORTANT INFORMATION
+         ========================================================= -->
+
+    <section class="section telemedicine-info">
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <p class="eyebrow">Before Your Visit</p>
+
+          <h2>Important Telemedicine Information</h2>
+
+          <p>
+            Please review the following information before requesting
+            a telemedicine appointment.
+          </p>
+
+        </div>
+
+
+        <div class="info-grid">
+
+          <article class="info-card info-card-alert">
+
+            <div class="info-card-icon" aria-hidden="true">
+              !
             </div>
+
             <div>
-              <h2 style="color: red; font-size: 28px;">Telemedicine can treat:</h2>
-              <ul style="list-style: disc;">
-                <li style="font-size: 24px;">Allergies</li>
-                <li style="font-size: 24px;">Arthritic pain</li>
-                <li style="font-size: 24px;">Asthma</li>
-                <li style="font-size: 24px;">Bladder infections</li>
-                <li style="font-size: 24px;">Bronchitis</li>
-                <li style="font-size: 24px;">Colds and flu</li>
-                <li style="font-size: 24px;">Diarrhea</li>
-                <li style="font-size: 24px;">Infections</li>
-                <li style="font-size: 24px;">Lab result reviews</li>
-                <li style="font-size: 24px;">Prescription refills</li>
-                <li style="font-size: 24px;">Rashes</li>
-                <li style="font-size: 24px;">Respiratory infections</li>
-                <li style="font-size: 24px;">Sore throats</li>
-                <li style="font-size: 24px;">Sprains and strains</li>
-                <li style="font-size: 24px;">UTIs</li>
-              </ul>
+              <h3>Medical Emergencies</h3>
+
+              <p>
+                If this is a medical emergency, call <strong>911</strong>
+                or seek emergency medical care immediately.
+              </p>
             </div>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-card-icon" aria-hidden="true">
+              $
+            </div>
+
+            <div>
+              <h3>Insurance &amp; Payment</h3>
+
+              <p>
+                Your insurance will be billed for the telemedicine visit.
+                You are responsible for any copay, coinsurance, and/or
+                deductible required by your insurance plan.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-card-icon" aria-hidden="true">
+              +
+            </div>
+
+            <div>
+              <h3>When an In-Person Visit Is Needed</h3>
+
+              <p>
+                Your telemedicine provider may request an in-person
+                follow-up visit before a diagnosis can be made. If an
+                in-person visit is necessary, care will be provided as
+                appropriate. Telemedicine charges still apply.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-card-icon" aria-hidden="true">
+              ✓
+            </div>
+
+            <div>
+              <h3>Privacy</h3>
+
+              <p>
+                Your telemedicine session is private. Please choose a
+                quiet and private location for your appointment whenever
+                possible.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         BOOKING
+         ========================================================= -->
+
+    <section
+      class="section section-booking"
+      id="telemedicine-booking"
+    >
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <p class="eyebrow">Schedule Online</p>
+
+          <h2>Request a Telemedicine Appointment</h2>
+
+          <p>
+            Use the appointment system below to request your visit.
+            You can also call our office if you need assistance.
+          </p>
+
+        </div>
+
+
+        <div class="booking-card">
+
+          <div class="booking-card-header">
+
+            <div>
+              <h3>Online Appointment Request</h3>
+
+              <p>
+                Select an available appointment through Patient Fusion.
+              </p>
+            </div>
+
+            <a
+              href="tel:12818363627"
+              class="booking-phone"
+            >
+              (281) 836-3627
+            </a>
+
           </div>
+
+
+          <div class="booking-frame">
+
+            <iframe
+              title="Book a telemedicine appointment with Dr. Mamta Jain"
+              src="https://www.patientfusion.com/doctor/mamta-jain-md-57167"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+
+          </div>
+
         </div>
-      </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         BENEFITS
+         ========================================================= -->
+
+    <section class="section section-benefits">
+
+      <div class="container">
+
+        <div class="two-column-heading">
+
+          <div>
+            <p class="eyebrow">Why Telemedicine?</p>
+
+            <h2>
+              Care that fits
+              <span>your schedule.</span>
+            </h2>
+          </div>
+
+          <p>
+            Telemedicine can make accessing medical care easier when
+            traveling to the office is difficult or unnecessary.
+          </p>
+
+        </div>
+
+
+        <div class="benefits-grid">
+
+          <article class="benefit-card">
+            <span class="benefit-number">01</span>
+            <h3>No Travel Required</h3>
+            <p>
+              Avoid transportation time and costs associated with
+              traveling to the office.
+            </p>
+          </article>
+
+
+          <article class="benefit-card">
+            <span class="benefit-number">02</span>
+            <h3>Less Time Away</h3>
+            <p>
+              Telemedicine may reduce the amount of time you need to
+              take away from work or other responsibilities.
+            </p>
+          </article>
+
+
+          <article class="benefit-card">
+            <span class="benefit-number">03</span>
+            <h3>Convenience at Home</h3>
+            <p>
+              Attend your appointment from a convenient, private
+              location without the need for an office visit.
+            </p>
+          </article>
+
+
+          <article class="benefit-card">
+            <span class="benefit-number">04</span>
+            <h3>Family &amp; Caregiving</h3>
+            <p>
+              Remote visits may make it easier to manage child-care,
+              elder-care, and other responsibilities.
+            </p>
+          </article>
+
+
+          <article class="benefit-card">
+            <span class="benefit-number">05</span>
+            <h3>Less Waiting</h3>
+            <p>
+              A remote appointment can reduce the amount of time spent
+              traveling to and waiting in an office.
+            </p>
+          </article>
+
+
+          <article class="benefit-card">
+            <span class="benefit-number">06</span>
+            <h3>Convenient Follow-Up</h3>
+            <p>
+              Telemedicine can provide a convenient option for certain
+              follow-up visits and ongoing care.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CONDITIONS / USE CASES
+         ========================================================= -->
+
+    <section class="section section-conditions">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+
+          <p class="eyebrow">Telemedicine Care</p>
+
+          <h2>Conditions That May Be Addressed</h2>
+
+          <p>
+            Telemedicine may be appropriate for a variety of common
+            medical concerns. Your provider will determine whether
+            remote care is appropriate for your individual situation.
+          </p>
+
+        </div>
+
+
+        <div class="conditions-grid">
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Allergies
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Arthritic pain
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Asthma
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Bladder infections
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Bronchitis
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Colds and flu
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Diarrhea
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Infections
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Lab result reviews
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Prescription refills
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Rashes
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Respiratory infections
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Sore throats
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Sprains and strains
+          </div>
+
+          <div class="condition-item">
+            <span aria-hidden="true">+</span>
+            Urinary tract infections
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FINAL CTA
+         ========================================================= -->
+
+    <section class="final-cta">
+
+      <div class="container final-cta-inner">
+
+        <div>
+
+          <p class="eyebrow">
+            Advanced Internal Medicine of the Woodlands
+          </p>
+
+          <h2>
+            Have questions about telemedicine?
+          </h2>
+
+        </div>
+
+        <a
+          href="tel:12818363627"
+          class="button button-primary"
+        >
+          Call (281) 836-3627
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <strong>Advanced Internal Medicine</strong>
+        <span>of the Woodlands</span>
+      </div>
+
+      <div class="footer-info">
+
+        <a href="tel:12818363627">
+          (281) 836-3627
+        </a>
+
+        <address>
+          3115 College Park Dr., Ste. 112<br>
+          The Woodlands, TX 77384
+        </address>
+
+      </div>
+
+      <div class="footer-tagline">
+        Proudly serving Greater North Houston since 2010.
+      </div>
+
     </div>
 
-    <!-- FOOTER  -->
-    <div class="footer">
-      <p>Proudly serving Greater North Houston since 2010</p>
-    </div>
-  </body>
+  </footer>
+
+
+  <!-- =========================================================
+       MOBILE NAVIGATION
+       ========================================================= -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".primary-navigation");
+
+      if (menuButton && navigation) {
+
+        menuButton.addEventListener("click", function () {
+
+          const isOpen = navigation.classList.toggle("is-open");
+
+          menuButton.setAttribute(
+            "aria-expanded",
+            isOpen ? "true" : "false"
+          );
+
+          menuButton.setAttribute(
+            "aria-label",
+            isOpen
+              ? "Close navigation menu"
+              : "Open navigation menu"
+          );
+
+        });
+
+
+        navigation.querySelectorAll("a").forEach(function (link) {
+
+          link.addEventListener("click", function () {
+
+            navigation.classList.remove("is-open");
+
+            menuButton.setAttribute(
+              "aria-expanded",
+              "false"
+            );
+
+            menuButton.setAttribute(
+              "aria-label",
+              "Open navigation menu"
+            );
+
+          });
+
+        });
+
+      }
+
+    });
+  </script>
+
+</body>
 </html>
