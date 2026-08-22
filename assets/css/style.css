@@ -2508,50 +2508,57 @@ p {
     padding: 58px 0 64px;
   }
 
+  @media (max-width: 700px) {
+
   .hero-inner {
     display: flex;
     flex-direction: column;
     gap: 0;
+
+    /* Restores the vertical breathing room */
+    padding-top: 58px;
+    padding-bottom: 64px;
   }
 
   .hero-content {
     display: contents;
   }
 
-  /* Headline area first */
+  /* 1. Eyebrow */
   .hero-content .eyebrow {
     order: 1;
   }
 
+  /* 2. Main headline */
   .hero-content h1 {
     order: 2;
   }
 
-  /* Dr. Jain photo next */
-  .hero-photo {
+  /* 3. Intro paragraph */
+  .hero-text {
     order: 3;
+  }
+
+  /* 4. Dr. Jain photo */
+  .hero-photo {
+    order: 4;
 
     width: min(100%, 360px);
-    margin: 28px auto 32px;
+    margin: 30px auto 32px;
 
     align-self: center;
   }
 
-  /* Intro paragraph */
-  .hero-text {
-    order: 4;
-  }
-
-  /* Buttons */
+  /* 5. Buttons */
   .hero-actions {
     order: 5;
   }
 
-  /* Same-day appointment note */
+  /* 6. Same-day appointment note */
   .hero-note {
     order: 6;
   }
-
+     
   .hero h1 {
     font-size: clamp(2.35rem, 11vw, 3.2rem);
   }
