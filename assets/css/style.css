@@ -2509,19 +2509,48 @@ p {
   }
 
   .hero-inner {
-     grid-template-columns: 1fr;
-     gap: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
-   
-   .hero-content {
-     padding-bottom: 30px;
-   }
-   
-   .hero-photo {
-     width: min(100%, 360px);
-     margin: 0 auto 60px;
-     justify-self: center;
-   }
+
+  .hero-content {
+    display: contents;
+  }
+
+  /* Headline area first */
+  .hero-content .eyebrow {
+    order: 1;
+  }
+
+  .hero-content h1 {
+    order: 2;
+  }
+
+  /* Dr. Jain photo next */
+  .hero-photo {
+    order: 3;
+
+    width: min(100%, 360px);
+    margin: 28px auto 32px;
+
+    align-self: center;
+  }
+
+  /* Intro paragraph */
+  .hero-text {
+    order: 4;
+  }
+
+  /* Buttons */
+  .hero-actions {
+    order: 5;
+  }
+
+  /* Same-day appointment note */
+  .hero-note {
+    order: 6;
+  }
 
   .hero h1 {
     font-size: clamp(2.35rem, 11vw, 3.2rem);
