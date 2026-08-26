@@ -886,6 +886,58 @@ p {
    HOMEPAGE — REVIEWS
    ========================================================= */
 
+.review-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  padding: 48px 52px;
+
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+
+  box-shadow: var(--shadow-small);
+}
+
+.review-cta-content {
+  max-width: 680px;
+}
+
+.review-cta-content h2 {
+  margin: 0;
+
+  color: var(--color-heading);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.review-cta-content > p:not(.eyebrow) {
+  max-width: 620px;
+  margin: 18px 0 0;
+
+  color: var(--color-text-light);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.review-button {
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.review-button span {
+  font-size: 1.05rem;
+  transition: transform var(--transition);
+}
+
+.review-button:hover span {
+  transform: translate(2px, -2px);
+}
+
 .section-reviews {
   background: var(--color-background-soft);
 }
@@ -2508,8 +2560,6 @@ p {
     padding: 58px 0 64px;
   }
 
-  @media (max-width: 700px) {
-
   .hero-inner {
     display: flex;
     flex-direction: column;
@@ -2668,6 +2718,23 @@ p {
     flex: 1 1 100%;
     min-width: 0;
     padding: 23px;
+  }
+
+   /* Google review CTA */
+  .review-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+
+    padding: 34px 27px;
+  }
+
+  .review-cta-content h2 {
+    font-size: 2.1rem;
+  }
+
+  .review-button {
+    width: 100%;
   }
 
   /* Final CTA */
