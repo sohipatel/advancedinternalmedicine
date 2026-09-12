@@ -28,6 +28,61 @@
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!-- Page-specific certification section -->
+  <style>
+    .physician-certification {
+      background: #f5f8f7;
+    }
+
+    .certification-card {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 28px;
+      padding: 34px;
+      margin-top: 30px;
+      background: #ffffff;
+      border: 1px solid rgba(30, 79, 72, 0.14);
+      border-radius: 18px;
+      box-shadow: 0 12px 34px rgba(24, 60, 55, 0.08);
+    }
+
+    .certification-seal {
+      display: grid;
+      place-items: center;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: #e8f1ef;
+      color: #245b53;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .certification-content h3 {
+      margin: 0 0 8px;
+    }
+
+    .certification-content p {
+      margin: 0;
+      max-width: 680px;
+    }
+
+    @media (max-width: 760px) {
+      .certification-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 28px 24px;
+      }
+
+      .certification-card .button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+
    <!-- SEO and GEO -->
   <link
     rel="canonical"
@@ -332,6 +387,63 @@
             </p>
 
           </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         BOARD CERTIFICATION
+         ========================================================= -->
+
+    <section class="section physician-certification">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            Board Certification
+          </p>
+
+          <h2>
+            Certified by the American Board of
+            <span>Internal Medicine.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="certification-card">
+
+          <div class="certification-seal" aria-hidden="true">
+            &#10003;
+          </div>
+
+          <div class="certification-content">
+
+            <h3>
+              ABIM Board Certification
+            </h3>
+
+            <p>
+              Dr. Mamta Jain is board certified in Internal Medicine.
+              View her certification information through the American
+              Board of Internal Medicine.
+            </p>
+
+          </div>
+
+          <a
+            href="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/188653536"
+            class="button button-primary"
+            aria-label="View Dr. Mamta Jain's ABIM certification"
+          >
+            View Certification
+          </a>
 
         </div>
 
