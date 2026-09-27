@@ -1955,6 +1955,113 @@ p {
 
 
 /* =========================================================
+   HEALTH ARTICLES
+   ========================================================= */
+
+.health-articles-section {
+  padding-top: 76px;
+}
+
+.health-article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.health-article {
+  min-width: 0;
+  overflow: hidden;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-small);
+}
+
+.health-article-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  background: var(--color-primary-light);
+}
+
+.health-article-content {
+  padding: 28px 30px 30px;
+}
+
+.health-article h3 {
+  margin: 0 0 12px;
+  color: var(--color-heading);
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.health-article-placeholder {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-light);
+  border-radius: var(--radius-small);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.health-article-details summary {
+  width: fit-content;
+  padding: 4px 0;
+  color: var(--color-primary-dark);
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.health-article-details[open] summary {
+  margin-bottom: 20px;
+}
+
+.health-article-body {
+  color: var(--color-text);
+  line-height: 1.75;
+}
+
+.health-article-body p {
+  margin: 0 0 18px;
+}
+
+.health-article-body h4 {
+  margin: 22px 0 12px;
+  color: var(--color-heading);
+  font-size: 1.05rem;
+}
+
+.health-article-body ul {
+  margin: 0 0 22px;
+  padding-left: 1.25rem;
+}
+
+.health-article-body li + li {
+  margin-top: 10px;
+}
+
+.health-article-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .health-article-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .health-article-image {
+    height: 210px;
+  }
+
+  .health-article-content {
+    padding: 24px;
+  }
+}
+
+
+/* =========================================================
    CONTACT PAGE
    ========================================================= */
 
